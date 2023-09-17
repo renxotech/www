@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'Playfair Display';
     font-style: normal;
@@ -83,6 +84,50 @@
     font-stretch: normal;
     font-display: swap;
     src: url(fonts/sans-serif-heavy.woff) format('woff');
+}
+
+header {
+    background-color: #fff;
+    /* Adjust the background color as needed */
+    color: #fff;
+    /* Text color */
+    padding: 10px 0;
+    /* Add padding for spacing */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo img {
+    width: 178px;
+    /* Adjust the width of your logo */
+}
+
+/* Basic styling for the navigation bar */
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    /* White background */
+    text-align: right;
+    display: flex;
+}
+
+li.navitem {
+    margin-right: 20px;
+    display: inline-block;
+}
+
+li.navitem a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #800000;
+    /* Maroon text color for all buttons */
 }
 
 .x {
