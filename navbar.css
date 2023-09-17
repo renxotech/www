@@ -32,7 +32,7 @@ nav a {
     cursor: pointer;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1080px) {
     .nav-links {
         display: none; /* Hide the navigation links on smaller screens */
         flex-direction: column; /* Stack menu items vertically */
