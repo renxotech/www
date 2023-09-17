@@ -1,0 +1,51 @@
+header {
+    background-color: #333; /* Adjust the background color as needed */
+    color: #fff; /* Text color */
+    padding: 10px 0; /* Add padding for spacing */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px; /* Adjust the width of your logo */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px; /* Adjust the spacing between menu items */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* Link color */
+}
+
+.menu-icon {
+    display: none; /* Initially hide the menu icon */
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none; /* Hide the navigation links on smaller screens */
+        flex-direction: column; /* Stack menu items vertically */
+        position: absolute;
+        top: 60px; /* Adjust the distance from the top as needed */
+        left: 0;
+        background-color: #333; /* Background color for mobile menu */
+        width: 100%;
+        padding: 10px 0;
+        z-index: 1; /* Ensure the menu appears above other content */
+    }
+
+    .menu-icon {
+        display: block; /* Display the menu icon on smaller screens */
+    }
+}
