@@ -34,7 +34,20 @@
         <li class="navitem"><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
+        <div class="menu-icon">
+            <i class="fa fa-bars"></i>
+        </div>
+
   </header>
+    <script>
+        const menuIcon = document.querySelector(".menu-icon");
+        const navLinks = document.querySelector(".navbar");
+
+        menuIcon.addEventListener("click", () => {
+            navLinks.classList.toggle("show");
+        });
+    </script>
+
 
   <div id="layout-63857-dcc-6-d-03-439-c-aac-9-d-7-f-78-c-9-bef-2-c"
     class="layout layout-layout layout-layout-layout-27 locale-en-IN lang-en">
