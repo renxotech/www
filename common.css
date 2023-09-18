@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(/fonts/Playfair-reg.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(/fonts/Playfair-bold.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(/fonts/Playfair-heavy.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 300;
+    font-stretch: normal;
+    font-display: swap;
+    src: url(/fonts/sans-serif-italic-lite.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-stretch: normal;
+    font-display: swap;
+    src: url(/fonts/sans-serif-italic.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 700;
+    font-stretch: normal;
+    font-display: swap;
+    src: url(/fonts/sans-serif-italic-bold.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-stretch: normal;
+    font-display: swap;
+    src: url(/fonts/sans-serif-light.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: normal;
+    font-display: swap;
+    src: url(/fonts/sans-serif-reg.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-stretch: normal;
+    font-display: swap;
+    src: url(/fonts/sans-serif-bold.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-stretch: normal;
+    font-display: swap;
+    src: url(/fonts/sans-serif-heavy.woff) format('woff');
+}
+
+header {
+    background-color: #fff;     /* Adjust the background color as needed */
+    color: #000;                /* Text color */
+    padding: 10px 0;              /* Add padding for spacing */
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 178px;                 /* Adjust the width of your logo */
+}
+
+/* Basic styling for the navigation bar */
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;      /* White background */
+    text-align: right;
+    display: flex;
+}
+
+li.navitem {
+    margin-right: 20px;           /* Adjust the spacing between menu items */
+    display: inline-block;
+}
+
+li.navitem a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #000000;              /* Black text color for all buttons */
+}
+
+/* Change the color of the links' text when you hover over them */
+li.navitem a:hover {
+    color: #8c0414;              /* Maroon text color on hover */
+}
+
+/* Change the color of the currently selected link */
+.x .navsel {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #8c0414;              /* Maroon text color for selected navbar button */
+}
+
+.menu-icon {
+    display: none;                 /* Initially hide the menu icon */
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1080px) {
+    .navbar {
+        display: none;             /* Hide the navigation links on smaller screens */
+        flex-direction: column;    /* Stack menu items vertically */
+        position: absolute;
+        top: 60px;                 /* Adjust the distance from the top as needed */
+        left: 0;
+        background-color: #333;  /* Background color for mobile menu */
+        width: 100%;
+        padding: 10px 0;
+        z-index: 1;                /* Ensure the menu appears above other content */
+    }
+
+    .menu-icon {
+        display: block;            /* Display the menu icon on smaller screens */
+        cursor: pointer;
+        color: #8c0414;
+    }
+}
+
+.x .c1-b {
+    font-family: 'Open Sans', arial, sans-serif
+}
