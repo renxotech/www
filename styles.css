@@ -138,12 +138,25 @@ li.navitem a:hover {
 .menu-icon {
     display: none;
     /* Initially hide the menu icon */
+    cursor: pointer;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1080px) {
     .navbar {
         display: none;
         /* Hide the navigation links on smaller screens */
+        flex-direction: column;
+        /* Stack menu items vertically */
+        position: absolute;
+        top: 60px;
+        /* Adjust the distance from the top as needed */
+        left: 0;
+        background-color: #333;
+        /* Background color for mobile menu */
+        width: 100%;
+        padding: 10px 0;
+        z-index: 1;
+        /* Ensure the menu appears above other content */
     }
 
     .menu-icon {
