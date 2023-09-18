@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="RENXO Technologies">
+  <meta property="og:url" content="http://renxo.tech/">
+  <meta property="og:site_name" content="RENXO Technologies">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#8c0414">
+  <meta name="twitter:image" content="/media/RENXO.tech.png">
+  <meta name="twitter:image:alt" content="RENXO.tech">
+
+  <title>Openings at RENXO Technologies</title>
+  <meta property="og:title" content="Openings at RENXO Technologies">
+  <meta name="twitter:title" content="Openings at RENXO Technologies">
+  <meta name="twitter:description" content="Openings at RENXO Technologies">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body class="x  x-fonts-playfair-display">
+    <header>
+        <div class="logo c1-b">
+            <img src="/media/RENXO.tech.png" alt="RENXO.tech">
+        </div>
+        <nav>
+            <ul class="navbar c1-b">
+                <li class="navitem"><a href="/">Home</a></li>
+                <li class="navitem navsel">Careers</a></li>
+                <li class="navitem"><a href="/solutions">Solutions</a></li>
+                <li class="navitem"><a href="/#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-icon">
+            <i class="fa fa-bars"></i>
+        </div>
+    </header>
+    <!-- script src="navbar.js"></script -->
+    <script>
+        const menuIcon = document.querySelector(".menu-icon");
+        const navBar = document.querySelector(".navbar");
+
+        menuIcon.addEventListener("click", () => {
+            navBar.classList.toggle("show");
+        });
+    </script>
+    <h1 style="text-align: center;">Job Board</h1>
+    <div class="container">
+        <div class="job-card" onclick="location.href='jobs/job1.html';">
+            <div class="job-title">Web Developer</div>
+            <div class="job-description">Build amazing websites and web applications.</div>
+            <div class="job-info">Location: Anywhere</div>
+            <div class="job-info">Stipend: $3000/month</div>
+            <div class="skills">
+                <div class="skill">HTML</div>
+                <div class="skill">CSS</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">React</div>
+            </div>
+        </div>
+
+        <div class="job-card" onclick="location.href='jobs/job2.html';">
+            <div class="job-title">Graphic Designer</div>
+            <div class="job-description">Create stunning visuals and designs.</div>
+            <div class="job-info">Location: New York</div>
+            <div class="job-info">Stipend: $2500/month</div>
+            <div class="skills">
+                <div class="skill">Photoshop</div>
+                <div class="skill">Illustrator</div>
+                <div class="skill">UI/UX Design</div>
+            </div>
+        </div>
+        <!-- Add more job cards here -->
+    </div>
+</body>
+</html>

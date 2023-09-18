@@ -131,8 +131,18 @@ li.navitem a {
 
 /* Change the color of the links' text when you hover over them */
 li.navitem a:hover {
-    color: #800000;
+    color: #8c0414;
     /* Maroon text color on hover */
+}
+
+/* Change the color of the currently selected link */
+.x .navsel {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #8c0414;
+    /* Maroon text color for selected navbar button */
 }
 
 .menu-icon {
@@ -163,6 +173,7 @@ li.navitem a:hover {
         display: block;
         /* Display the menu icon on smaller screens */
         cursor: pointer;
+        color: #8c0414;
     }
 }
 
