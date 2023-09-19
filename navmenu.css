@@ -1,0 +1,72 @@
+@media screen and (max-width: 1080px) {
+    header {
+        display: flex;
+        background-color: #fff;
+        /* Adjust the background color as needed */
+        color: #000;
+        /* Text color */
+        padding: 10px 0;
+        /* Add padding for spacing */
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .logo img {
+        width: 178px;
+        /* Adjust the width of your logo */
+    }
+    
+    .menu-icon {
+        display: block;     /* Display the menu icon on smaller screens */
+        cursor: pointer;
+        color: #8c0414;
+    }
+
+    /* Styling for the navigation menu */
+    ul.navbar {
+        display: none;      /* Hide the navigation links on smaller screens */
+        flex-direction: column;
+        /* Stack menu items vertically */
+        position: absolute;
+        top: 60px;
+        /* Adjust the distance from the top as needed */
+        left: 0;
+        background-color: #fff;   /* Background color for mobile menu */
+        width: 100%;
+        padding: 10px 0;
+        z-index: 1;    /* Ensure the menu appears above other content */
+    }
+
+    li.navitem {
+        margin-right: 20px;
+        /* Adjust the spacing between menu items */
+        display: inline-block;
+    }
+
+    li.navitem a {
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        color: #000000;
+        /* Black text color for all buttons */
+    }
+
+    /* Change the color of the links' text when you hover over them */
+    li.navitem a:hover {
+        color: #8c0414;
+        /* Maroon text color on hover */
+    }
+
+    /* Change the color of the currently selected link */
+    .x .navsel {
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        color: #8c0414;
+        /* Maroon text color for selected navbar button */
+    }
+}
+
