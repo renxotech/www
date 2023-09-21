@@ -13,9 +13,9 @@
     }
     
     .logo img {
-        width: 178px;
+        width: 198px;
         padding-top: 10px;
-        padding-left: 20px;
+        padding-left: 30px;
         /* Adjust the width of your logo */
     }
     
@@ -23,8 +23,8 @@
         display: block;     /* Display the menu icon on smaller screens */
         cursor: pointer;
         color: #8c0414;
-        font-size: 24px;
-        padding-right: 20px
+        font-size: 28px;
+        padding-right: 30px
     }
 
     /* Styling for the navigation menu */
@@ -36,7 +36,9 @@
         top: 60px;
         /* Adjust the distance from the top as needed */
         left: 0;
-        background-color: #fff;   /* Background color for mobile menu */
+        font-size: 24px;
+        font-weight: bold;
+        background-color: #f2f2f2;   /* Background color for mobile menu */
         width: 100%;
         padding: 10px 0;
         z-index: 1;    /* Ensure the menu appears above other content */
